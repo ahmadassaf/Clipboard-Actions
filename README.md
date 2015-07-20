@@ -3,7 +3,7 @@
 
 # What is it?
 
-*dot-clipboard* monitors your clipboard and runs user-defined scripts based on the clipboard content.
+*dot-clipboard* monitor your clipboard and runs user-defined scripts based on the clipboard content.
 
 ### I am not a child, what is it?
 
@@ -14,20 +14,20 @@
 Believe it or not **we use the clipboard the same way since the 70s**. Yes, we've copy/pasted stuff the same way for 40 years! Well, until now. 
 
 <p align="center">
-<img src="./docs/noob.gif"/>
+<img src="https://dl.dropboxusercontent.com/u/3892/gif/noob.gif"/>
 </p>
 
 *dot-clipboard* brings the power of automation to a whole new level. Now each time you **copy** something you will be able to automatically trigger anything, depending on your workflow.
 
 ### Yeah... but why?
 
-- You share a lot of gif though github, hipchat or skype ? Automatically *backup* them to your own public gif folder in dropbox when doing so. See [examples/download-gif.js](/examples/download-gif.js).
+- You share a lot of gif though github, hipchat or skype ? Automatically backup them to your own public gif folder in dropbox when doing so. See [examples/download-gif.js](/examples/download-gif.js).
 - Automatically *backup* a youtube/dailymotion video inside a folder just by copying the link.
 - Minify links from clipboard on the fly. Change the clipboard content with a minified link\*
 - Automatically convert Spotify/Deezer/Grooveshark links to Youtube equivalent\*
 
 <p align="center">
-<img src="./docs/ironman-stark.gif"/>
+<img src="https://dl.dropboxusercontent.com/u/3892/gif/knailed-it/ironman-stark-awesome-epic-giphy%20%281%29.gif"/>
 </p>
 
 ### Wow that's awesome! What more does it do?
@@ -42,8 +42,6 @@ Believe it or not **we use the clipboard the same way since the 70s**. Yes, we'v
 ```
 npm install dot-clipboard -g
 ```
-
-Note: It will automatically install two scripts: [download-gif.js](/examples/download-gif.js) and [growl.js](/examples/growl.js) as well as their dependencies (`request`, `async` and `growl`).
 
 ## How do I write my first script?
 
@@ -77,23 +75,12 @@ My first script got new clipboard data : test
 
 The scripts localization is customizable with the `DOT_CLIPBOARD_DIR` environment variable.
 
-## How do I setup dot-clipboard as a deamon?
-
-On OS X you can use `launchd`. Take a look at this [example of .plist for dot-clipboard](https://gist.github.com/danzimm/c0aed9a3b2c6897b4cc8).
-
-
 ## I want to help!
 
 Great! Here are some of the most asked features:
 
-- Expose a clipboard to write api to scripts. \* this feature is required.
+- Expose a clipboard write api to scripts. \* this feature is required.
 - Multi-platform support (**currently only *OSX* is supported**)
-
-## Alternatives
-
-- [CopyQ](https://github.com/hluk/CopyQ) A clipboard manager with searchable and editable history. (Cpp, QT)
-- [Klipper](https://userbase.kde.org/Klipper) KDE clipboard utility
-- [ClipMenu](https://github.com/naotaka/ClipMenu) A clipboard manager for Mac OS X
 
 -------------------------
 
